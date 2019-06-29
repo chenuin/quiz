@@ -1,0 +1,45 @@
+// Color system
+$gray-100: #f6f6f6;
+$primary: #20B2AA;
+
+// Spacing
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: ($spacer * .75),
+    4: ($spacer * 1),
+    5: ($spacer * 1.25),
+    3x: 30px,
+    4x: 40px,
+    6x: 60px
+  ),
+  $spacers
+);
+
+
+// Body
+$body-bg: $gray-100;
+
+
+// Components
+$border-radius: 0rem;
+$border-radius-lg: 0rem;
+$border-radius-sm: 0rem;
+
+
+
+// Other
+//
+// for calculate static ratio
+// sreen-width: 1920px
+// sidebar: 280px
+// content: 1640px
+
+$topbar-base-height: 3.75rem;
+$sidebar-base-width: (280 / 1920) * 100%;
+$sidebar-collapsed-width: 7.5rem;
+
