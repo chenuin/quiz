@@ -20,10 +20,11 @@
 
 			<div class="text-right mt-3">
 				{{message}}
-				<button @click="checkAnswer" class="btn btn-primary mx-1">Submit</button>
-				<router-link :to="{name:'quiz2'}" class="btn btn-secondary mx-1" :disabled="is_disabled">Next</router-link>
+				<b-button @click="checkAnswer" class="mx-1">Submit</b-button>
+				<b-button :to="{name:'quiz2'}" variant="secondary" class="mx-1" :disabled="is_disabled">Next</b-button>
 			</div>
 		</div>
+
 	</div>
 </template>
 

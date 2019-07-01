@@ -1,15 +1,18 @@
 <template>
 	<div id="wrapper">
-		<ul class="navbar-nav position-fixed bg-white sidebar sidebar-light">
+		<ul class="navbar-nav position-fixed bg-primary sidebar sidebar-dark">
 			<div class="sidebar-heading bg-white mx-3">
 				<img src="@/assets/images/boy.png" class="img-fluid">
 			</div>
 
 			<li class="nav-item">
-				<router-link :to="{name: 'quiz1'}" class="nav-link" target="_self">Quiz1</router-link>
+				<router-link :to="{name: 'quiz1'}" class="nav-link">Quiz1</router-link>
 			</li>
 			<li class="nav-item">
-				<router-link :to="{name: 'quiz2'}" class="nav-link" target="_self">Quiz2</router-link>
+				<router-link :to="{name: 'quiz2'}" class="nav-link">Quiz2</router-link>
+			</li>
+			<li class="nav-item">
+				<router-link :to="{name: 'quiz3'}" class="nav-link">Quiz3</router-link>
 			</li>
 		</ul>
 

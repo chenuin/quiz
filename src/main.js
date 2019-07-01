@@ -5,6 +5,10 @@ import store from './store'
 
 import './assets/scss/quiz.scss'
 
+import BaseButton from '@/components/BaseButton'
+import BaseFormInput from '@/components/BaseFormInput'
+Vue.component('b-button', BaseButton);
+Vue.component('b-form-input', BaseFormInput);
 Vue.config.productionTip = false
 
 new Vue({
