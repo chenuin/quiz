@@ -1,7 +1,7 @@
 <template>
 	<nav id="topbar" class="navbar shadow sticky-top navbar-light bg-white navbar-expand">
 		<div id="nav-collapse" class="navbar-collapse collapse">
-			<button type="button" class="btn d-md-none mr-3 btn-link">
+			<button @click="sendTrigger" type="button" class="btn d-md-none mr-3 btn-link">
 				<i class="fa fa-bars"></i>
 			</button>
 

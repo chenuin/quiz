@@ -1,6 +1,6 @@
 <template>
 	<div id="wrapper">
-		<ul class="navbar-nav position-fixed bg-primary sidebar sidebar-dark">
+		<ul class="navbar-nav position-fixed bg-primary sidebar sidebar-dark" :class="{'toggled': show_sidebar}">
 			<div class="sidebar-heading bg-white mx-3">
 				<img src="@/assets/images/boy.png" class="img-fluid">
 			</div>

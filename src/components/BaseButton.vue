@@ -1,6 +1,7 @@
 <template>
 	<button
 		type="button"
+		style="width: 120px;"
 		:class="class_list"
 		:disabled="disabled"
 		@click="handleClick($event)">
